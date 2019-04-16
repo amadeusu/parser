@@ -1,0 +1,72 @@
+// comment
+/*
+    comment
+*/
+
+/*
+    types:
+    INT,
+    FLOAT,
+    STRING (iterable),
+    BOOL,
+*/
+
+/*
+    operators:
+    + (op1 + op2 = val) (str1 + str2 = str)
+    - (op1 - op2 = val)
+    * (op1 * op2 = val)
+    / (op1 / op2 = val) (op / 0 = inf) (op / inf = 0)
+    -> ostream
+    <- istream
+*/
+
+type array[size] %name%;
+
+type def %func_name% |args|
+    /*
+        code
+    */
+
+    return value
+end
+
+type %var_name%
+type %var_name% = value
+
+if |condition| 
+    /*
+        code
+    */
+end
+
+/*
+    condition ops:
+    == eq (equal)
+    != ne (not_equal)
+    > more
+    < less
+    >= moe (more or equal)
+    <= loe (less or equa)
+*/
+
+for VAR in range_of RANGE
+    /*
+        code
+    */
+end
+
+for ITEM in ITERABLE_ITEM
+    /*
+        code
+    */
+end
+
+while |condition|
+    /*
+        code
+    */
+end
+
+print -> str
+input <- var
